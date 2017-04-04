@@ -28,6 +28,9 @@ body {
 .half-width {
 	width: 50%;
 }
+.ninty-percent-width{
+	width:90%;
+}
 .sixty-percent-width{
 	width:60%;
 }
@@ -115,7 +118,7 @@ body {
 
 .page-container {
 	background-image: url("img/newspaper-small.png");
-	height: 100%;
+	height: auto;
 }
 
 .centre-column {
@@ -132,21 +135,6 @@ body {
 
 
 
-/* Post Preview Information */
-
-.post-preview-container {
-	margin: 15px 0px;
-}
-
-
-.dark-grey-background {
-	background-color: #454e50;
-}
-
-.light-grey-background {
-	background-color: #1e2223;
-}
-
 
 /* Background colors */
 
@@ -160,16 +148,47 @@ body {
 
 
 
+/* Post Preview Information */
 
+.post-preview-container {
+	margin: 15px auto;
+	padding: 3% 5%;
+}
 
+.post-preview-container a {
+	float: right;
+	text-decoration: none;
+	color: #34495e;
+	font-size: 18px;
+	margin-top: 5px;
+	padding-bottom: 5px;
+}
 
-h1{
+h1 {
 	text-align: center;
 	color: #34495e;
 	font-size:35px;
 	padding: 10px;
 }
 
+h2 {
+	color: #34495e;
+	font-size:20px;
+	padding-bottom:5px;
+}
+
 p {
 	color: #34495e;
+}
+
+p.date {
+	color: #8fa4b8;
+}
+
+p.preview-text {
+	color: #34495e;
+}
+
+.clear-both {
+	clear: both;
 }
